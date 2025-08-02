@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This is a hands-on project I created to explore how **real-time data pipelines** work using **Databricks Structured Streaming** and **Delta Lake**. I wanted to simulate how websites track user activity — like clicks on pages — and see how to ingest, process, and analyze that data as it arrives in real time.
+This is a hands-on project I created to explore how **real-time data pipelines** work using **Databricks Structured Streaming** and **Delta Lake**. I wanted to simulate how websites track user activity, like clicks on pages, and see how to ingest, process, and analyze that data as it arrives in real time.
 
 Instead of relying on external tools like Kafka or Azure Event Hub, I used **DBFS (Databricks File System)** to keep things simple and accessible, especially since I’m using Databricks on the Standard Tier.
 
@@ -10,7 +10,7 @@ Instead of relying on external tools like Kafka or Azure Event Hub, I used **DBF
 
 ## Why I Built This
 
-As someone diving deeper into data engineering, I really wanted to understand how **streaming pipelines** work — not just in theory, but by building something end to end.
+As someone diving deeper into data engineering, I really wanted to understand how **streaming pipelines** work, not just in theory, but by building something end to end.
 
 This project helped me:
 - Get hands-on with **Structured Streaming** in Spark
@@ -54,9 +54,8 @@ README.md
 
 ---
 
-## 🧪 What a Sample Event Looks Like
+## What a Sample Event Looks Like
 
-```json
 {
   "user_id": "bob",
   "page": "product",
